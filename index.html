@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <header>
+    <div>
+      <img src="images/Anton.png" alt="Imagem do crítico de culinária Anton Ego do desenho Ratatouille">
+    </div>
+  </header>
+  
+  <div class="page">
+    <header>
+      <h1> Avalie o Restaurante </h1>
+      <p> Preencha o formulário abaixo Anton Ego! </p>
+    </header>
+
+
+    <form id="my form">
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend> Local</legend>
+
+          <div class="input-wrapper">
+            <label for="name"> Nome </label>
+            <input 
+            type="text" id="name" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="adress"> Endereço </label>
+            <input type="text" id="adress" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="adress"> Cidade </label>
+            <input type="text" id="adress" />
+          </div>
+
+            <div class="input-wrapper">
+            <label for="adress"> Estado </label>
+            <input type="text" id="adress" />
+          </div>
+          
+          <div class="input-wrapper">
+            <label for="event-info">Avaliação</label>
+            <textarea id="event-info"></textarea>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="event-category">Categoria</label>
+            <select id="event-category">
+              <option value="live">Bistrô</option>
+              <option value="live">Clássico</option>
+              <option value="live">Food Truck</option>
+              <option value="live">Grill</option>
+              <option value="live">Jantar Fino</option>
+              <option value="live">Popular</option>
+              <option value="live">Pop Up</option>
+              <option value="live">Pub</option>
+              <option value="live">Rápido e Casual</option>
+              <option value="live">Rede de restaurantes</option>
+              <option value="live">Típico</option>
+              <option value="live">Tradicional</option>
+              <option value="live">Hamburgueria</option>
+              <option value="live">Internacional</option>
+              <option value="live">Comfort Food</option>
+              <option value="live">Cozinha Autoral</option>
+              <option value="live">Estilo Familiar ou Jantar Casual</option>
+              <option value="live">Fast Food</option>
+              <option value="podcast">Buffet ou Self-Service</option>
+              <option value="podcast">Café, Cafeteria ou Coffee Shop</option>
+              <option value="mentorship">Cantina</option>
+            </select>
+          </div>
+        </div>
+      </fieldset> 
+
+      <div class="input-wrapper">
+        <label for="event-category">Tipo de Evento</label>
+        <select id="event-category">
+          <option value="live">Particular</option>
+          <option value="live">Até 10 pessoas</option>
+          <option value="live">Entre 10 e 50 pessoas</option>
+          <option value="live">Entre 50 e 100 pessoas</option>
+          <option value="live">+ de 100 pessoas</option>
+          <select>
+      </div>
+            
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Dia e hora</legend>
+
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="event-date">Data</label>
+              <input type="date" id="event-date" />
+            </div>
+  
+            <div class="input-wrapper">
+              <label for="event-begin">Das</label>
+              <input type="time" id="event-begin" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-end">Até</label>
+              <input type="time" id="event-end" />
+            </div>
+          </div>        
+
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Contato do Anton Ego</legend>
+
+          <div class="input-wrapper">
+            <label for="event-email">E-mail<span>(digite um email válido)</span></label>
+            <input type="email" id="event-email" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="event-whatsapp">Whatsapp para contato <span>(Ex.: (00) 12345-5678)</span></label>
+            <input type="number" id="event-whatsapp" /> 
+                     
+          <br>       
+        </div>
+      </fieldset>
+
+    </form>
+    <footer>
+      <button 
+        class="button" 
+        form="my-form">
+        Salvar Informações
+      </button>
+    </footer>
+  </div>
+  
+</body>
+</html>
